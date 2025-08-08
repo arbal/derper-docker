@@ -2,7 +2,7 @@
 
 [![docker workflow](https://github.com/fredliang44/derper-docker/actions/workflows/docker-image.yml/badge.svg)](https://hub.docker.com/r/fredliang/derper)
 [![docker pulls](https://img.shields.io/docker/pulls/fredliang/derper.svg?color=brightgreen)](https://hub.docker.com/r/fredliang/derper)
-[![platfrom](https://img.shields.io/badge/platform-amd64%20%7C%20arm64-brightgreen)](https://hub.docker.com/r/fredliang/derper/tags)
+[![platform](https://img.shields.io-badge/platform-amd64%20%7C%20arm64-brightgreen)](https://hub.docker.com/r/fredliang/derper/tags)
 
 # Setup
 
@@ -25,4 +25,4 @@ docker run -e DERP_DOMAIN=derper.your-domain.com -p 80:80 -p 443:443 -p 3478:347
 
 # Usage
 
-Fully DERP setup offical documentation: https://tailscale.com/kb/1118/custom-derp-servers/
+Fully DERP setup official documentation: https://tailscale.com/kb/1118/custom-derp-servers/
